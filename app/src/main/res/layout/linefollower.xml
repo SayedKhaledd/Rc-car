@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Auto">
+    tools:context=".LineFollower">
+
+    <!-- TODO: Update blank fragment layout -->
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <Button
-            android:id="@+id/button2"
-            android:layout_width="172dp"
-            android:layout_height="107dp"
-            android:layout_marginStart="178dp"
-            android:layout_marginLeft="178dp"
-            android:layout_marginTop="297dp"
-            android:layout_marginEnd="145dp"
-            android:layout_marginRight="145dp"
-            android:layout_marginBottom="386dp"
-            android:text="auto"
-            android:textSize="32sp"
+            android:id="@+id/button3"
+            android:layout_width="166dp"
+            android:layout_height="83dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="324dp"
+            android:layout_marginEnd="105dp"
+            android:layout_marginRight="105dp"
+            android:layout_marginBottom="324dp"
+            android:text="lightsenseor"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
